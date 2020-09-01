@@ -31,13 +31,19 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>mockwebserver</artifactId>
+            <version>4.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.73</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -48,13 +54,5 @@
             </plugin>
         </plugins>
     </build>
-    @Configuration
-    @EnableWebMvc
-    public class Config extends WebMvcConfigurerAdapter{
-    @Override
-    public void configureDefaultServletHandling(
-    DefaultServletHandlerConfigurer configurer) {
-    configurer.enable();
-    }
-    }
+
 </project>
