@@ -1,9 +1,8 @@
-<<<<<<< HEAD
+
 ## 风行社区
 
-=======
-##风行社区
->>>>>>> 4e3c9e38c850ba5796ae0f39e0e4b22c0fed39ea
+
+
 
 ##资料
 [Spring 文档]( http://spring.io/guides) 
@@ -18,6 +17,7 @@
 
 [Github Oauth](http://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
 
+[Spring](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-embedded-database-suppoort)
 ##工具
 [Git](http://git-scm.com/download)
 
